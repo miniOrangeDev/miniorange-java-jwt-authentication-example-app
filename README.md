@@ -19,7 +19,7 @@ Visit the [miniOrange Dashboard](https://login.xecurify.com) and create a new Ja
 
 If you're using an existing Java JWT application, make sure the following settings are properly configured:
 
-- **Redirect URL**: `http://localhost:8080/demoapplication`
+- **Redirect URL**: `http://localhost:8080/sso?action=callback`
 - **Logout URL**: `http://localhost:8080/`
 
 These URLs should match the actual URLs where your Java application is running.
