@@ -33,8 +33,8 @@ These URLs should match the actual URLs where your Java application is running.
 
 - Go to **Apps**, and from the dropdown next to your configured Java JWT App, click **Select**.
 - Click on **Certificate** to download the RSA256 certificate.
-- Place the downloaded certificate in the `lib` folder of your miniorange-java-jwt-authentication-example-app. 
 - <img src="https://www.miniorange.com/images/java-jwt-sso/java-jwt-sso-certificate.webp" alt="Java JWT SSO" width="500" />
+- Place the downloaded certificate in the `lib` folder of your miniorange-java-jwt-authentication-example-app.
 - Keep the file name as `RSA256Cert.crt`.
 
 ### 5. Set Up Endpoints
@@ -61,8 +61,7 @@ If you haven't already done so, create a user in the miniOrange dashboard. This 
 ### 10. Test the Login
 - Open a private/incognito window in your browser.
 - Visit the following URL `http://localhost:8080`.
-- This will redirect you to home page.
-- Click on Login with miniOrange button.
+- This will redirect you to home page. Click on **Login with miniOrange** button.
 - This will redirect you to miniOrange login page.
 - Enter your miniOrange user credentials. Upon successful authentication, you'll be logged into your Java JWT application.
 
